@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CAPTCHAs generator</title>
+</head>
+<body>
+    {% extends "template.html" %}
+    {% block content %}
+    <div class="row">
+        <div class="col-md-5 text-center mx-auto">
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="https://img.icons8.com/clouds/200/000000/security-shield-green.png">
+                    <h3 class="card-title">Failed!</h3>
+                    <p class="card-text">You failed to break CAPTCHA.</p>
+                    <form><button id="captcha_btn" type="submit" class="btn btn-danger btn-block">Try again</button></form>
+                </div>
+            </div>            
+        </div>
+    </div>
+    {% endblock %}
+</body>
+</html>

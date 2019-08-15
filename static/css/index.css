@@ -1,0 +1,7 @@
+img, #captcha_input, #captcha_btn{
+	margin-top: 10px;
+}
+
+#captcha_btn{
+	margin-bottom: 20px;
+}
